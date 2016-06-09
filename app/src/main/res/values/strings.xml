@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Game</string>
+    <string name="app_name">Battleship</string>
     <string name="action_settings">Settings</string>
 </resources>
