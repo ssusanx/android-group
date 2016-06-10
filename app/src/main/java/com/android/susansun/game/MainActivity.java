@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
     Button drag;
     LinearLayout drop;
-    TextView text, sucess;
-    int total, failure = 0;
+    TextView text,sucess;
+    int total , failure = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
