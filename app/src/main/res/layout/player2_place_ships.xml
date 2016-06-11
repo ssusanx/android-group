@@ -13,17 +13,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Player 1, place your fleet!"
-        android:id="@+id/textView2"
+        android:text="Player 2, place your fleet!"
+        android:id="@+id/textView3"
         android:layout_gravity="center_horizontal|bottom" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Done"
-        android:id="@+id/button1"
+        android:id="@+id/button2"
         android:layout_gravity="center_horizontal|bottom"
-        android:layout_marginBottom="25dp"
-        android:onClick="Player2PlaceShips"/>
+        android:layout_marginBottom="25dp"/>
 
 </FrameLayout>
