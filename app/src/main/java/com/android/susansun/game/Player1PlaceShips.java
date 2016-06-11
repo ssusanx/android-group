@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Player1PlaceShips extends Activity  implements View.OnClickListener {
+public class Player1PlaceShips extends Activity implements View.OnClickListener {
 
     Button button1;
 

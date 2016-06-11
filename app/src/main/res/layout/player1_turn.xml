@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:background="@drawable/ocean">
 
-    <com.android.susansun.game.BattleshipGridView
+    <com.android.susansun.game.Player1Board
         android:id="@+id/grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -13,17 +13,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Player 2, place your fleet!"
-        android:id="@+id/textView3"
+        android:text="Player 1, place your bomb!"
+        android:id="@+id/textView2"
         android:layout_gravity="center_horizontal|bottom" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Done"
-        android:id="@+id/button2"
+        android:id="@+id/button3"
         android:layout_gravity="center_horizontal|bottom"
-        android:layout_marginBottom="25dp"
-        android:onClick="Player1Turn"/>
+        android:layout_marginBottom="25dp" />
 
 </FrameLayout>
